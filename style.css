@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    background-color:#e5b377;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+.headings {
+    text-align: center;
+    line-height: 45px;
+    text-transform: capitalize;
+    color: darkblue;
+    text-decoration: underline;
+
+   
+}
+.hidden{
+    display: none;
+}
+.rlives{
+    text-align: center;
+}
+.buttons {
+    text-align: center;
+}
+.button{
+
+    font-size: larger;
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+    margin: 100px;
+}
+.word-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* margin: 20px; */
+    /* padding: 50px; */
+}
+.word{
+    margin-right: 20px;
+
+}
+.letter-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: brown;
+}
+.letterbtn{
+    margin: 5px;
+    font-size: larger;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    padding: 20px;
+    text-transform: uppercase;
+    background-color: bisque;
+}
+.disable{
+    background-color:burlywood;
+    color: blue;
+    pointer-events: none;
+}
+.notif{
+    width: 200px;
+    height: 100px;
+    margin: 50px;
+    margin-left:700px;
+    border: 2px solid black;
+    padding: 50px;
+    padding-bottom: 100px;
+    background-color: brown;
+    color: bisque;
+
+}
+.notif h2{
+    background-color: brown;
+    text-transform: capitalize;
+}
+.notif-button{
+    background-color: beige;
+    text-transform: capitalize;
+    font-size: larger;
+    padding: 10px;
+    margin: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.notif-span{
+    background-color: brown;
+}

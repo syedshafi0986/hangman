@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hangman</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper ">
+        <div class="headings">
+
+            <h1>hangman game </h1>
+            <h2>javascript code </h2>
+            <h3>click on the keys to guess the word</h3>
+        </div>
+        <div class="letter-div"></div>
+        <div class="container hidden">
+            <p style="text-transform: capitalize; font-size: larger; color:darkred;margin: 100px;font-weight: 1000;text-decoration:underline;">need help?just click on hint to guess the word</p>
+
+            <div class="hint-div hidden">
+                <p>hint:</p>
+            <div class="hint-text"></div>
+        </div>
+        <div class="word-div">
+            
+        </div>
+        <div class="rlives hidden">
+            
+            <h3 style="font-size: larger;text-transform: uppercase;">remaining lives :</h3><span class="lives"></span> 
+        </div>
+        <div class="buttons">
+            <button class="button" id="hint-btn">hint</button>
+            <button class="button" id="reset-btn">reset</button>
+
+        </div>
+    </div>
+        <div class="notif hidden ">
+            <h2>game over!!</h2>
+            <h2 class="notif-content" style="text-decoration: underline;"></h2> 
+            <h2>correct word <span class="notif-span"></span></h2>
+            <button class="notif-button">play again</button>
+        </div>
+
+    </div>
+    <div class="hanged"></div>
+    <script src="index.js"></script>
+</body>
+</html>
